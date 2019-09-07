@@ -15,25 +15,25 @@
 }
 
 .carousel-image1 {
-    background: url('../img/image1.jpg');
+    background: url('/img/image1.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .carousel-image2 {
-    background: url('../img/image2.jpg');
+    background: url('/img/image2.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .carousel-image3 {
-    background: url('../img/image3.jpg');
+    background: url('/img/image3.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .carousel-image4 {
-    background: url('../img/image4.jpg');
+    background: url('/img/image4.jpg');
     background-size: cover;
     background-position: center;
 }
