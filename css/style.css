@@ -1,0 +1,71 @@
+.navbar.navbar-custom .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8');
+}
+
+.navbar {
+    border-bottom: 4px solid;
+    -moz-border-image: -moz-linear-gradient(to left, #79cc9e 0%, #beedec 25%, #c5ceff 50%, #cabd96 75%, #b591c7 100%);
+    -webkit-border-image: -webkit-linear-gradient(to left, #79cc9e 0%, #beedec 25%, #c5ceff 50%, #cabd96 75%, #b591c7 100%);
+    border-image: linear-gradient(to left, #f52121, #0ef3ef, #28e90e, #f01b1b);
+    border-image-slice: 1;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-image1 {
+    background: url('../img/image1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image2 {
+    background: url('../img/image2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image3 {
+    background: url('../img/image3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image4 {
+    background: url('../img/image4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+.fa-trash{
+    background: #cc1515;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.fa-plus{
+    background: #20e619;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.add:hover{
+    background-color: #0ef3ef;
+}
+
+.deletebd:hover{
+    background-color: #ff0000;
+}
+
+@media(max-width: 40rem){
+    .container{
+        padding: 0;
+    }
+}
